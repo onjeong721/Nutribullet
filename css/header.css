@@ -1,0 +1,146 @@
+header {
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+header >.wrap {
+  height: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 50px;
+}
+header .wrap h1{
+  
+}
+header .wrap h1 a{
+  width: 230px;
+  height: 36px;
+  font-size: 0;
+  background-image: url(../img/logo_nutribullet.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+}
+header .wrap >ul {
+  justify-self: center;
+  margin-right: 220px;
+}
+header .wrap ul li {
+  
+}
+header .wrap ul li {
+  
+}
+header .wrap >ul li a {
+  font-size: 20px;
+  padding: 0 30px;
+  line-height: 90px;
+  height: 100%;
+  display: block;
+  position: relative;
+  transition: 0.3s;
+  color: #474646;
+}
+header .wrap >ul li:hover a{
+  color: #F0534C;
+}
+header .wrap >ul li a::after{
+  display: block;
+  content: "";
+  border-bottom: 1.5px solid #F0534C;
+  position: absolute;
+  bottom: calc((100% / 2) - 13px);
+  width: calc(100% - 60px);
+  opacity: 0;
+  transition: 0.3s;
+}
+header .wrap >ul li:hover a::after{
+  opacity: 1;
+}
+header .wrap >a {
+ font-size: 0;
+ display: block;
+}
+header .wrap >a::after{
+  content: "";
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/search.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .wrap .hmenu {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  left: 0;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  border-top: 1.5px solid #dfdfdf;
+  background-color: white;
+}
+header .wrap .hmenu .container {
+
+  width: 100%;
+}
+header .wrap .hmenu .container .wsub{
+  display: none;
+}
+header .wrap .hmenu .container .sub1 {
+
+}
+header .wrap .hmenu .container .sub1 h2.hide {
+
+}
+header .wrap .hmenu .container .sub1 ul.product {
+
+}
+header .wrap .hmenu .container .sub1 ul.product li {
+
+}
+header .wrap .hmenu .container .sub1 ul.product li h3 {
+
+}
+header .wrap .hmenu .container .sub1 ul.product li h3 a {
+
+}
+header .wrap .hmenu .container .sub1 ul.product li ul {
+
+}
+header .wrap .hmenu .container .sub1 ul.product li ul li {
+
+}
+header .wrap .hmenu .container .sub1 ul.product li ul li a {
+
+  font-size: 19px;
+  line-height: 2;
+  color: #777;
+}
+header .wrap .hmenu .container .sub2 {
+
+  display: none;
+}
+header .wrap .hmenu .container .sub2 h2.hide {
+
+}
+header .wrap .hmenu .container .sub2 ul.service {
+
+}
+header .wrap .hmenu .container .sub2 ul.service li {
+
+}
+header .wrap .hmenu .container .sub2 ul.service li a {
+
+}
+.show{
+  display: flex!important;
+}

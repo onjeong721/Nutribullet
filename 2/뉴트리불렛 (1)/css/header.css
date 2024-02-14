@@ -1,0 +1,25 @@
+header {
+
+}
+header .wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  height: 100px;
+}
+header .wrap h1 {
+
+}
+header .wrap ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .wrap ul li {
+
+}
+header .wrap ul li a {
+
+}
+header .wrap a {
+
+}/*# sourceMappingURL=header.css.map */

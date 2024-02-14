@@ -1,0 +1,81 @@
+footer {
+  background: #0073E6;
+  position: relative;
+}
+footer a{
+  color: white;
+  font-size: 15px;
+}
+footer .wrap {
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  padding-top: 30px;
+  justify-items: center;
+  max-width: 1320px;
+}
+footer .wrap ul.footer-menu {
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 40px;
+  width: 100%;
+}
+footer .wrap ul.footer-menu li {
+  
+}
+footer .wrap ul.footer-menu li h2{
+  
+}
+footer .wrap ul.footer-menu li h2 a{
+  
+  line-height: 5;
+}
+footer .wrap ul.footer-menu li ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer .wrap ul.footer-menu li ul li {
+  
+}
+footer .wrap ul.footer-menu li ul li a {
+  
+}
+footer .wrap span.sns {
+  grid-column: 2;
+  font-size: 0;
+}
+footer .wrap span.sns a {
+  
+  padding: 10px;
+  font-size: 0;
+}
+footer .wrap span.sns a::after{
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-image: url(../img/insta.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .wrap span.sns a:nth-child(2)::after{
+  background-image: url(../img/youtube.png);
+}
+footer .wrap p {
+  
+  grid-row: 2;
+  display: block;
+  width: 100%;
+  grid-column: 1 / span 2;
+  background-color: #004EA8;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding-left: 295.1px;
+}

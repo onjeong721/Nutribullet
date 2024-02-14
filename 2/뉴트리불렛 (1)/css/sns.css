@@ -1,0 +1,33 @@
+section#sns {
+  
+}
+section#sns .wrap {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#sns .wrap h2 {
+  
+}
+section#sns .wrap ul {  
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 95%;
+  padding: 0;
+}
+section#sns .wrap ul li {
+  
+}
+section#sns .wrap ul li a{
+  font-size: 0;
+}
+section#sns .wrap ul li a::after{
+  background: url(../img/sns.jpg) no-repeat center;
+  content: "";
+  display: block;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+}/*# sourceMappingURL=sns.css.map */

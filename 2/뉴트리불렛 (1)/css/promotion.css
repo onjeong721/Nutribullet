@@ -1,0 +1,38 @@
+section#poromotion {
+ 
+}
+section#poromotion .wrap {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section#poromotion .wrap h2 {
+ 
+}
+section#poromotion .wrap p {
+ 
+  padding-top: 50px;
+}
+section#poromotion .wrap ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+section#poromotion .wrap ul li {
+ 
+}
+section#poromotion .wrap ul li a {
+  line-height: 3;
+}
+section#poromotion .wrap ul li a::before{
+  display: block;
+  content: "";
+  background: url(../img/intro.jpg) no-repeat center;
+  width: 382px;
+  height: 384px;
+  background-size: cover;
+}/*# sourceMappingURL=promotion.css.map */

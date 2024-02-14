@@ -1,0 +1,41 @@
+footer {
+  background-color: #0073E6;
+}
+footer .wrap {
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+footer .wrap ul.menu {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+footer .wrap ul.menu li h2 a {
+  font-size: 16px;
+  line-height: 3;
+}
+footer .wrap ul.menu li ul.list {
+  display: flex;
+  flex-direction: column;
+}
+footer .wrap ul.menu li ul.list li {
+
+}
+footer .wrap ul.menu li ul.list li a {
+
+}
+footer .wrap span{
+  
+  justify-self: end;
+}
+footer .wrap span a{
+  
+}
+footer .wrap p{
+  
+  width: 100%;
+  grid-column: 1 / span 2;
+  background-color: #004EA8;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴트리불렛</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+    <!-- 프리텐다드 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- https://ionic.io/ionicons/v1 -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("header .wrap >ul li:first-child").hover(function(){
+                $("header .wrap .hmenu .container .wsub").slideDown();
+                //$("header .wrap .hmenu .container .sub1").addClass("show");
+                $("header .wrap .hmenu .container .sub1").siblings().hide();
+            });
+            $("header .wrap .hmenu .container .sub1").wrap("<div class='wsub'></div>");
+            $("header .wrap .hmenu .container .sub1").mouseleave(function(){
+                $(this).parent().slideUp();
+            });
+            // $("header .wrap >ul li:nth-child(4)").hover(function(){
+            //     $("header .wrap .hmenu .container .sub2").slideDown();
+            // });
+        });
+    </script>
+    <!-- 슬릭 -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('section#story .wrap .story').slick();
+        });
+    </script>
+</head>
+<body>
+   <!-- 헤더 -->
+    <header>
+        <div class="wrap">
+            <h1><a href="">뉴트리불렛</a></h1>
+            <ul class="menu flex">
+                <li>
+                    <a href="">제품</a></li>
+                <li><a href="">스토리</a></li>
+                <li><a href="">레시피</a></li>
+                <li><a href="">고객지원</a></li>
+            </ul>
+            <a href="">검색</a>
+            <div class="hmenu wrap">
+                <div class="container">
+                    <div class="sub sub1">
+                        <h2 class="hide">제품소개</h2>
+                        <ul class="submenu product">
+                            <li>
+                                <h3><a class="red" href="">퍼스널 블렌더</a></h3>
+                                <ul class="blender blender1">
+                                    <li><a href="">뉴트리불렛 NB604S</a></li>
+                                    <li><a href="">뉴트리불렛 NB607</a></li>
+                                    <li><a href="">뉴트리불렛 NB908 레드</a></li>
+                                    <li><a href="">뉴트리불렛 NB908 샴페인골드</a></li>
+                                    <li><a href="">뉴트리불렛 NB908 블루</a></li>
+                                    <li><a href="">뉴트리불렛 NB908 화이트</a></li>
+                                    <li><a href="">뉴트리불렛 NB908 매트블랙</a></li>
+                                    <li><a href=""> 뉴트리불렛 NB908 매트옐로우</a></li>
+                                    <li><a href=""> 뉴트리불렛 NB908 매트그린</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3><a class="red" href="">블렌더</a></h3>
+                                <ul class="blender blender2">
+                                    <li><a href="">초고속 블렌더 멀티 콤보 NBF500DG</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sub sub2">
+                        <h2 class="hide">고객지원</h2>
+                        <ul class="submenu service">
+                            <li><a class="red" href="">자주 묻는 질문</a></li>
+                            <li><a class="red" href="">사용법</a></li>
+                            <li><a class="red" href="">A / S</a></li>
+                            <li><a class="red" href="">판매처</a></li>
+                        </ul>
+                    </div class="sub">
+                </div>  
+            </div>
+        </div>
+    </header>
+    <!-- 타이틀 -->
+    <div id="title">
+        <div class="wrap flex">
+            <video autoplay="" muted="" loop="">
+                <source src="img/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <main>
+        <!-- 멀티블렌더 -->
+        <section id="multie" class="">
+            <div class="photowrap">
+                <h2 class="hide">블렌더</h2>
+                <h3 class="h3">초고속 블렌더<br>멀티콤보</h3>
+                <p class="p">새로운 차원의 파워와 섬세한 블렌딩의<br>NBF500DG를 만나보세요.</p>
+                <a href="" class="go">자세히 보기</a>
+            </div>
+        </section>
+        <!-- 퍼스널블렌더 -->
+        <section id="personal">
+            <div class="photowrap">
+                <h2 class="hide">퍼스널블렌더</h2>
+                <h3 class="h3">뉴트리불렛 NB908</h3>
+                <p class="p">풍부한 영양을 위한 더 강력한 파워</p>
+                <a href="" class="go">자세히 보기</a>
+            </div>
+        </section>
+        <!-- 고객센터 -->
+        <section id="qna">
+            <div class="wrap flex column">
+                <h2 class="h5">다채로운 뉴트리불렛</h2>
+                <ul>
+                    <li>
+                        <a href="">
+                            <h3>레시피</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3>스토리</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3>사용법</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- 레시피 -->
+        <section id="recife">
+            <div class="wrap flex column">
+                <h2 class="h5">레시피</h2>
+                <ul>
+                    <li><a href="">블루이너헬스</a></li>
+                    <li><a href="">레드 리커버리</a></li>
+                    <li><a href="">그린 부스터</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 스토리 -->
+        <section id="story">
+            <div class="wrap">
+                <h2 class="h5">스토리</h2>
+                <div class="story wrap">
+                    <article class="grid">
+                        <h4>뉴트리불렛 X 네이버 도착보장 기획전</h4>
+                        <p>▶ 2023년 7월 31일 - 8월 27일◀뉴트리불렛의 스테디셀러 NB908 제품을 네이버 도착보장 기획전에서특별한 가격으로 만나볼 수 있습니다!오늘 시키면 내일 바로 도착하는빠른 배송으로 뉴트리불렛과함께하는 건강한 매일을 지금 바로 누려보세요.특별 할인가 확인하러 가기 ->   최소한의 노력으로 최대의 영양분을뉴트리불렛과 함께 누리는 더욱 건강한 일상  </p>
+                        <a href="">자세히 보기</a>
+                    </article>
+                    <article class="grid">
+                        <h4>뉴트리불렛런 현장 스케치</h4>
+                        <p>뉴트리불렛RUN, 열정 가득한 이벤트 현장을 공개합니다 지난 20일 진행된 뉴트리불렛RUN 행사에는서울숲 러닝외에도 다양한 현장 이벤트가 함께 진행되었답니다!뉴트리불렛 블렌더로 쉽고 간편하게 만드는건강 주스 시음부스에서는 시원하고 신선한 주스를 맛 볼 수 있었고,뉴트리불렛RUN 현장의 즐거운 기억을 남길 수 있는즉석 사진 인화와 선물 추첨 이벤트도 진행되어 많은 분들이 함께뉴트리불렛RUN 행사에 참여 할 수 있었습니다.</p>
+                        <a href="">자세히 보기</a>
+                    </article>
+                    <article class="grid">
+                        <h4>뉴트리불렛 RUN 참가자 모집 (~5/10)</h4>
+                        <p>✨뉴트리불렛 RUN 참가자 모집✨건강하고 즐거운 라이프스타일을 추구하는 당신을 위해, 뉴트리불렛이 서울숲에서 Run이벤트를 엽니다!브랜드 모델 이시영이 함께하는 뉴트리불렛 RUN에 참가하고 다양한 선물도 받아가세요.✔모집 인원 : 100명(총 2회)✔일정 : 2023년 5월 20일 오전 9시 / 오전 11시✔장소 : 서울 성수 서울숲 & 언더스탠드에비뉴✔신청방법 : 하단의 참여 배너 클릭!</p>
+                        <a href="">자세히 보기</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- 사용법 -->
+        <section id="instruction">
+            <div class="photowrap">
+                <h2 class="h6">사용법</h2>
+                <h3 class="h3">뉴트리불렛<br>사용법</h3>
+                <p class="p">이제 뉴트리불렛을 손쉽게 관리하세요.</p>
+                <a href="" class="go">자세히 보기</a>
+            </div>
+        </section>
+        <!-- 리뷰 -->
+        <section id="review">
+            <div class="wrap flex">
+                <h2 class="hide">사용자후기</h2>
+                <ul>
+                    <li><a href="">후기1</a></li>
+                    <li><a href="">후기2</a></li>
+                    <li><a href="">후기3</a></li>
+                    <li><a href="">후기4</a></li>
+                    <li><a href="">후기5</a></li>
+                </ul>
+            </div> 
+        </section>
+    </main>
+    <!-- 푸터 -->
+    <footer>
+        <div class="wrap">
+            <ul class="footer-menu">
+                <li>
+                    <h2><a href="">제품</a></h2>
+                    <ul>
+                        <li><a href="">퍼스널 블렌더</a></li>
+                        <li><a href="">블렌더</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2><a href="">스토리</a></h2>
+                    <ul>
+                        <li><a href="">이시영 스토리</a></li>
+                        <li><a href="">새소식</a></li>
+                        <li><a href="">블로그</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2><a href="">레시피</a></h2>
+                    <ul>
+                        <li><a href="">파워스무디</a></li>
+                        <li><a href="">스무디</a></li>
+                        <li><a href="">스무디볼</a></li>
+                        <li><a href="">음료</a></li>
+                        <li><a href="">음식과 소스</a></li>
+                        <li><a href="">디저트</a></li>
+                        <li><a href="">이유식</a></li>
+                        <li><a href="">뷰티</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2><a href="">고객지원</a></h2>
+                    <ul>
+                        <li><a href="">자주 묻는 질문</a></li>
+                        <li><a href="">사용법</a></li>
+                        <li><a href="">A / S</a></li>
+                        <li><a href="">판매처</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2><a href="">뉴트리불렛</a></h2>
+                    <ul>
+                        <li><a href="">개인정보보호정책</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <span class="sns">
+                <a href="">인스타그램</a>
+                <a href="">유튜브</a>
+            </span>
+            <p>© 2021 by Nutribullet. ALL RIGHT RESERVED</p>
+        </div>
+        </div>
+    </footer>

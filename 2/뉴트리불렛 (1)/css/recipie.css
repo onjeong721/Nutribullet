@@ -1,0 +1,33 @@
+section#recipie {
+ 
+}
+section#recipie .wrap { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section#recipie .wrap h2 {
+ 
+}
+section#recipie .wrap ul { 
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  text-align: center;
+}
+section#recipie .wrap ul li {
+ 
+}
+section#recipie .wrap ul li a {
+ line-height: 3;
+}
+section#recipie .wrap ul li a::before{
+  content: "";
+  display: block;
+  background: url(../img/recipie.jpg) no-repeat center;
+  background-size: cover;
+  width: 384px;
+  height: 384px;
+}
+/*# sourceMappingURL=recipie.css.map */
