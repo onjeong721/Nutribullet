@@ -1,5 +1,5 @@
 # Nutribullet 
-<img src="https://github.com/onjeong721/Bworld/assets/150096277/ff58f83a-3c0f-494f-8269-f48d0ad5b31f" width="80%" height="auto"/>
+<img src="https://github.com/onjeong721/Nutribullet/assets/150096277/9435e963-42b6-419c-9b13-f5596218d90f" width="80%" height="auto"/>
 
 ## 프로젝트 소개
  * 사이트 주소
