@@ -1,4 +1,4 @@
-# Nutribullet 
+# Nutribullet 웹 페이지 디자인클로코딩
 <img src="https://github.com/onjeong721/Nutribullet/assets/150096277/9435e963-42b6-419c-9b13-f5596218d90f" width="80%" height="auto"/>
 
 ## 프로젝트 소개
@@ -7,21 +7,25 @@
 <br>
 
 ## 참여
-  | **김민정** |
-  | :------: |
-  | [<img src="https://avatars.githubusercontent.com/u/106502312?v=4" height=150 width=150> <br/> @onejong0721](https://github.com/yeon1615) |
+* 개인 100%
+   <br>
 
 ## 개발환경
-
+<div display=flex>
+  <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+  <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+  <img src="https://img.shields.io/badge/adobephotoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+  <img src="https://img.shields.io/badge/adobeillustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+  <img src="https://img.shields.io/badge/sass-CC6699?style=flat-square&logo=sass&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+  <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+  <img src="https://img.shields.io/badge/googledrive-4285F4?style=flat-square&logo=googledrive&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+</div>
+<br>
 
 ## 기간
-
-## 개선사항
-
-## 페이지별 기능
-![setProfile](https://github.com/onjeong721/Bworld/assets/150096277/c3b595a4-b118-4d85-a953-4ad54e162ddd)
-![qksdmdgud](https://github.com/onjeong721/Bworld/assets/150096277/ed298d74-caf4-4f0d-8256-037c92a77448)
-## 오류개선
+2023년 12월 中
+<br>
 
 ## 프로젝트 구조
 ```
