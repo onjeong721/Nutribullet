@@ -1,4 +1,4 @@
-# Nutribullet 웹 페이지 디자인클로코딩
+# Nutribullet 웹 페이지 디자인클fhs코딩
 <img src="https://github.com/onjeong721/Nutribullet/assets/150096277/9435e963-42b6-419c-9b13-f5596218d90f" width="80%" height="auto"/>
 
 ## 프로젝트 소개
