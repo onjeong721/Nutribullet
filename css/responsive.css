@@ -1,0 +1,15 @@
+@media screen and (max-width:768px){
+  .wrap{
+    padding: 0 15px !important;
+  }
+  .photowrap{
+    padding: 0 15px;
+  }
+  header .wrap h1 a{
+    width: 120px;
+  }
+  header .wrap > ul{
+    display: none;
+  }
+
+}

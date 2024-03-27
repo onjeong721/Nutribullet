@@ -67,6 +67,7 @@ header .wrap >ul li:hover a::after{
 header .wrap >a {
  font-size: 0;
  display: block;
+ grid-column: 3;
 }
 header .wrap >a::after{
   content: "";
